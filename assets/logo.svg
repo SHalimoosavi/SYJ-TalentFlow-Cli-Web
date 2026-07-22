@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title>SYJ TalentFlow CLI Logo</title>
+  <desc>Modern gradient logo for SYJ TalentFlow CLI</desc>
+
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="220" rx="28" fill="#07111F"/>
+
+  <text x="40" y="125"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="92"
+        font-weight="800"
+        fill="url(#g1)"
+        filter="url(#glow)">SYJ</text>
+
+  <text x="230" y="125"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="82"
+        font-weight="700"
+        fill="#F8FAFC">Talent</text>
+
+  <text x="505" y="125"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="82"
+        font-weight="700"
+        fill="url(#g1)">Flow</text>
+
+  <rect x="735" y="58" width="110" height="56" rx="14"
+        fill="none" stroke="url(#g1)" stroke-width="3"/>
+
+  <text x="790" y="96"
+        text-anchor="middle"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="30"
+        font-weight="700"
+        fill="#F8FAFC">CLI</text>
+
+  <text x="42" y="176"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="24"
+        fill="#94A3B8"
+        letter-spacing="1">
+    AI-Powered Recruitment Automation Toolkit
+  </text>
+</svg>
